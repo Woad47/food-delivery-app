@@ -1,3 +1,4 @@
+import Categories from "@/components/Categories"
 import Header from "@/components/Header"
 import SearchBar from "@/components/SearchBar"
 import { StyleSheet, Text, View } from "react-native"
@@ -9,6 +10,8 @@ export default function Index() {
       <SafeAreaView style={styles.indexContainer}>
         <Header />
         <SearchBar />
+        <Categories />
+        <Text>Hello</Text>
       </SafeAreaView>
     </SafeAreaProvider>
   )
